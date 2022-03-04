@@ -1,6 +1,5 @@
 # MD-Dumper
 
-
 ![MD_pcb](https://github.com/X-death25/MD-Dumper/blob/main/img/DSC_0553.JPG) 
 
 What is it ?
@@ -15,6 +14,10 @@ New version also add some developpement feature witch can be usefull for Megadri
 Feature :
 -----
 
+Firmware Version : 2.0
+Software Version : 2.0
+
+
 | Feature | Implemented |
 | ------- | ----------- |
 | ROM Dump up to 16 MEG  Classic              | :white_check_mark: |
@@ -26,9 +29,9 @@ Feature :
 | EEPROM I²C Codemaster Backup Memory         |                    |
 | Sega Mapper 315-5779 SSFII classic          | :white_check_mark: |
 | SSFII Extended Overdrive / S2 Delta         | :white_check_mark: |
-| SSFII full 512 Mb + SRAM                    |                    |
-| DMC : Direct Megadrive Connection           |                    |
-| DMC : Dump 68K RAM                          | :white_check_mark: |
+| SSFII full 512 Mb + SRAM  DOA               |                    |
+| DMC : Direct Megadrive Connection           | :white_check_mark: |
+| DMC : Dump 68K RAM                          |                    |
 
 How to use it ?
 -----
