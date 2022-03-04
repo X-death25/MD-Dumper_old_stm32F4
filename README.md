@@ -4,17 +4,17 @@ What is it ?
 -----
 
 MD Dumper is an USB Sega Megadrive cartridge Dumper.
-Hardware is based on STM32F4 (BluePillV2) : STM32F4x1 MiniF4 
+Hardware is based on STM32F4 (BluePillV2) : STM32F4x1 MiniF4. 
 https://github.com/WeActTC/MiniSTM32F4x1
 New version also add some developpement feature witch can be usefull for Megadrive developper.
 
 Feature :
 -----
 
-| Address | Name | # of Games | Implemented |
-| ------- | ---- | ------- | ----------- |
-| $e149 | Delay131 | | :white_check_mark: |
-| $e153 | Delayms | | :white_check_mark: |
+| Feature | Implemented |
+| ------- | ----------- |
+| ROM Dump UP to 64 MEG | :white_check_mark: |
+| EEPROM I²C Sega Mapper|                    |
 
 Actual Feature :
 -----
