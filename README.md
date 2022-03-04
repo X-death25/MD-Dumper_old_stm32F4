@@ -15,6 +15,7 @@ Feature :
 -----
 
 Firmware Version : 2.0
+
 Software Version : 2.0
 
 
