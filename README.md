@@ -1,5 +1,8 @@
 # MD-Dumper
 
+
+![MD_pcb](https://github.com/X-death25/MD-Dumper/blob/main/img/DSC_0553.JPG) 
+
 What is it ?
 -----
 
@@ -23,19 +26,9 @@ Feature :
 | EEPROM I²C Codemaster Backup Memory         |                    |
 | Sega Mapper 315-5779 SSFII classic          | :white_check_mark: |
 | SSFII Extended Overdrive / S2 Delta         | :white_check_mark: |
-| SSFII full 512 Mb + SRAM                    | :white_check_mark: |
-
-Actual Feature :
------
-
-    Read Sega Megadrive cartridge up to 64 Meg
-    Support Bankswitch for ROM & Saves
-    Manage / Backup / Restore your own saves
-    Reflash Third-Party Cartridges
-    Read Master System / Mark III Games
-    Universal Serial Bus USB2 Power & Use
-    Multi OS compatibility Windows/Linux/Mac
-    Open Source Software
+| SSFII full 512 Mb + SRAM                    |                    |
+| DMC : Direct Megadrive Connection           |                    |
+| DMC : Dump 68K RAM                          | :white_check_mark: |
 
 How to use it ?
 -----
