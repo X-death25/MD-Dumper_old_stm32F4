@@ -22,14 +22,18 @@ Software Version : 2.0
 | ------- | ----------- |
 | ROM Dump up to 16 MEG  Classic              | :white_check_mark: |
 | ROM Dump up to 32 MEG  Bankswitch           | :white_check_mark: |
-| SRAM Backup Memory                          | :white_check_mark: |
+| SRAM Backup Memory Classic                  | :white_check_mark: |
+| SRAM Backup Memory Bankswitch               | :white_check_mark: |
+| Rewrite Krikzz flashkit cart or compatible  | :white_check_mark: |
 | Sega LOCK-ON                                | :white_check_mark: |
 | EEPROM I²C Sega Backup Memory               |                    |
 | EEPROM I²C Acclaim Backup Memory            |                    |
 | EEPROM I²C Codemaster Backup Memory         |                    |
+| Tiido's Microwire/SPI Backup Memory         |                    |
 | Sega Mapper 315-5779 SSFII classic          | :white_check_mark: |
 | SSFII Extended Overdrive / S2 Delta         | :white_check_mark: |
 | SSFII full 512 Mb + SRAM  DOA               |                    |
+| Mapper T5740                                | :white_check_mark: |
 | DMC : Direct Megadrive Connection           | :white_check_mark: |
 | DMC : Dump 68K RAM                          |                    |
 
