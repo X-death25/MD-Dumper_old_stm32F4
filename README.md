@@ -68,5 +68,5 @@ SGDK lib for bi-directionnal communication between Megadrive and PC <br>
 *Coming Soon*
 
 -=X-Flash=-
-Open Source CPLD based Megadrive cartridge 
+Open Source CPLD based Megadrive cartridge <br>
 *Coming Soon*
