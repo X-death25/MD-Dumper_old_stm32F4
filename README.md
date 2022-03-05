@@ -5,11 +5,9 @@
 What is it ?
 -----
 
-MD Dumper is an USB Sega Megadrive cartridge Dumper :
-
-Hardware is based on STM32F4 (BluePillV2) : STM32F4x1 MiniF4 https://github.com/WeActTC/MiniSTM32F4x1
-
-New version also add some developpement feature witch can be usefull for Megadrive developper.
+MD Dumper is an USB Sega Megadrive cartridge Dumper : <br>
+Hardware is based on STM32F4 (BluePillV2) : STM32F4x1 MiniF4 https://github.com/WeActTC/MiniSTM32F4x1  <br>
+New version also add some developpement feature witch can be usefull for Megadrive developper.  <br>
 
 Feature :
 -----
@@ -64,11 +62,11 @@ Linked Repositories
 My other projects related to Megadrive Hardware/Software developpement
 
 -=Python MD-Dumper GUI=-
-Easy and multiplateform GUI for MD-Dumper
+Easy and multiplateform GUI for MD-Dumper <br>
 https://github.com/X-death25/PyMD-Dumper
 
 -=DMC Direct Megadrive Connection=-
-SGDK lib for bi-directionnal communication between Megadrive and PC
+SGDK lib for bi-directionnal communication between Megadrive and PC <br>
 *Coming Soon*
 
 -=X-Flash=-
