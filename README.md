@@ -39,11 +39,9 @@ Software Version : 2.0
 How to use it ?
 -----
 
-You just need an USB-C to USB. 
-
-Connect the dumper to the PC and wait blue led activation. Insert game cartridge. 
-
-Start the software. Enjoy !
+You just need an USB-C to USB. <br>
+Connect the dumper to the PC and wait blue led activation. Insert game cartridge.  <br>
+Start the software. Enjoy ! <br>
 
 Operating System Compatibility
 -----
