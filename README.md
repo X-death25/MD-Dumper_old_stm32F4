@@ -67,6 +67,10 @@ https://github.com/X-death25/PyMD-Dumper
 SGDK lib for bi-directionnal communication between Megadrive and PC <br>
 *Coming Soon*
 
+-=SMD_01=-
+Simple 5V TTL 8MB Rewritable cartridge for testing code on real hardware <br>
+*Coming Soon*
+
 -=X-Flash=-
-Open Source CPLD based Megadrive cartridge <br>
+Altera EPM240 CPLD based Megadrive cartridge used for advanced research <br>
 *Coming Soon*
