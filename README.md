@@ -56,3 +56,21 @@ Where i can buy it ?
 -----
 
 https://www.tindie.com/products/xdeath/md-dumper-usb-megadrive-cartridge-readerwriter/
+
+
+Linked Repositories
+-----
+
+My other projects related to Megadrive Hardware/Software developpement
+
+-=Python MD-Dumper GUI=-
+Easy and multiplateform GUI for MD-Dumper
+https://github.com/X-death25/PyMD-Dumper
+
+-=DMC Direct Megadrive Connection=-
+SGDK lib for bi-directionnal communication between Megadrive and PC
+*Coming Soon*
+
+-=X-Flash=-
+Open Source CPLD based Megadrive cartridge 
+*Coming Soon*
