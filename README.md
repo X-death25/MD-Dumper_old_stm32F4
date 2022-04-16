@@ -74,3 +74,8 @@ Simple 5V TTL 8MB Rewritable cartridge for testing code on real hardware <br>
 -=X-Flash=-
 Altera EPM240 CPLD based Megadrive cartridge used for advanced research <br>
 https://github.com/X-death25/X-Flash
+
+Need Help ?
+-----
+If you need help or want to improvite or report a bug youre welcome to the official MD Dumper Discord !
+https://discord.gg/8AtuA29Dnw
