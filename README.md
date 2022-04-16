@@ -34,7 +34,7 @@ Software Version : 2.0
 | SSFII full 512 Mb + SRAM  DOA               |                    |
 | Mapper T5740                                | :white_check_mark: |
 | DMC : Direct Megadrive Connection           | :white_check_mark: |
-| DMC : Dump 68K RAM                          |                    |
+| DMC : Dump 68K RAM                          | :white_check_mark: |
 
 How to use it ?
 -----
