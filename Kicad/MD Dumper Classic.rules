@@ -1,0 +1,103 @@
+
+(rules PCB MD Dumper Classic
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 6117)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_800:400_um-Power"
+  )
+  (class default
+    VClk "BUS_DIR2" "STM_AS" "STM_ASEL" "STM_TIME" /PA11 /PA12 "STM_UWR"
+    "STM_DTACK" "BUS_DIR1" "STM_Rst" "STM_OE" "STM_CE" "STM_WE" 3V3 D8
+    /PC14 /PC15 D9 /RST "D0_V" D10 "D1_V" "D4_V"
+    D11 "D5_V" "D6_V" "D7_V" /PB1 /PB2 A0 A1
+    A2 "D2_V" A3 A4 A5 A6 A7 A16
+    A17 A18 D15 D14 D13 D12 A19 A20
+    ~MARK3 A21 /VBAT /PC13 A22 Clear Clk3 Clk2
+    Clk1 A8 A9 VCC A10 A11 A12 A13
+    A14 A15 "MD_DTACK" "MD_UWR" "MD_AS" "MD_Rst" "MD_TIME" "MD_WE"
+    "MD_CE" "MD_OE" D7 D6 D5 D4 D3 D2
+    D1 D0
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    GND VCC5
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
