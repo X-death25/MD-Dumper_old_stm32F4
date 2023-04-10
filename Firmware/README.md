@@ -1,10 +1,12 @@
 # README
 
-This is the smallest-possible example program using libopencm3.
+Public Version of MD Dumper V2
+V2.0 10/04/2023
+Public Version
 
-It's intended for the ST Nucleo-F411RE eval board. It should blink
-the GREEN LED on the board.
+*Upated Flash algo R/W
+*Add Extra Hardware Game Detection
+*Add Sega Lock-ON support
+*Add SSFII classic support
 
-## Board connections
 
-*none required*
